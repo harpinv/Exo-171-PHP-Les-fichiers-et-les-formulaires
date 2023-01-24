@@ -1,3 +1,9 @@
+<form action="fichier.php" method="post" enctype="multipart/form-data">
+    <label for="id-fichier">Choisissez un fichier image ( png ou jpg )</label>
+    <input type="file" name="fichierUtiliateur" id="id-fichier">
+    <input type="submit" value="Envoyer">
+</form>
+
 <?php
 
 /**
